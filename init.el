@@ -40,3 +40,7 @@
 
 (require 'popwin)
 (popwin-mode 1)
+
+(load (expand-file-name "~/quicklisp/slime-helper.el"))
+;; Replace "sbcl" with the path to your implementation
+(setq inferior-lisp-program "~/ccl/lx86cl64")
