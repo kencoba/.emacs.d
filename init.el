@@ -1,5 +1,7 @@
 (setq inhibit-startup-message t)
 
+(tool-bar-mode 0)
+
 (add-to-list 'load-path "~/.emacs.d/")
 (require 'auto-install)
 (add-to-list 'load-path auto-install-directory)
